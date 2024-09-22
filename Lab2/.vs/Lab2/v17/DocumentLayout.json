@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|c:\\users\\admin\\documents\\prn211\\lab2\\library\\testlirary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|solutionrelative:library\\testlirary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|c:\\users\\admin\\documents\\prn211\\lab2\\library\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|solutionrelative:library\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Menu.cs",
-              "RelativeDocumentMoniker": "Lab2\\Menu.cs",
-              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Menu.cs",
-              "RelativeToolTip": "Lab2\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TestLirary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Library\\TestLirary.cs",
+              "RelativeDocumentMoniker": "Library\\TestLirary.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Library\\TestLirary.cs",
+              "RelativeToolTip": "Library\\TestLirary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:15:55.967Z",
+              "WhenOpened": "2024-09-21T09:43:19.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Library\\Menu.cs",
+              "RelativeDocumentMoniker": "Library\\Menu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Library\\Menu.cs",
+              "RelativeToolTip": "Library\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:39:54.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Lab2\\Program.cs",
               "RelativeDocumentMoniker": "Lab2\\Program.cs",
-              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\Lab2\\Lab2\\Program.cs",
               "RelativeToolTip": "Lab2\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:01:11.734Z",
               "EditorCaption": ""
