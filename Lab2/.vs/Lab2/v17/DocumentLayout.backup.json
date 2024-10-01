@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\library\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|solutionrelative:library\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\library\\testlirary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D35A13CF-5AFF-4555-A696-034501308B3D}|Library\\Library.csproj|solutionrelative:library\\testlirary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|d:\\t\u00E0i li\u1EC7u\\prn211\\code\\lab2\\lab2\\model\\foodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBFB85A-97CF-4379-BF9A-C193EB3AE345}|Lab2\\Lab2.csproj|solutionrelative:lab2\\model\\foodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +30,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodContext.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Model\\FoodContext.cs",
+              "RelativeDocumentMoniker": "Lab2\\Model\\FoodContext.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Model\\FoodContext.cs",
+              "RelativeToolTip": "Lab2\\Model\\FoodContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:06:28.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Model\\Class1.cs",
+              "RelativeDocumentMoniker": "Lab2\\Model\\Class1.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Model\\Class1.cs",
+              "RelativeToolTip": "Lab2\\Model\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:20:26.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TestLirary.cs",
               "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Library\\TestLirary.cs",
               "RelativeDocumentMoniker": "Library\\TestLirary.cs",
               "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Library\\TestLirary.cs",
               "RelativeToolTip": "Library\\TestLirary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:43:19.467Z"
+              "WhenOpened": "2024-09-21T09:43:19.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +79,7 @@
               "RelativeDocumentMoniker": "Library\\Menu.cs",
               "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Library\\Menu.cs",
               "RelativeToolTip": "Library\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T09:39:54.002Z",
               "EditorCaption": ""
@@ -53,11 +88,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Program.cs",
-              "RelativeDocumentMoniker": "Lab2\\Program.cs",
-              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\Program.cs*",
-              "RelativeToolTip": "Lab2\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\View\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2\\View\\Program.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u\\PRN211\\code\\Lab2\\Lab2\\View\\Program.cs*",
+              "RelativeToolTip": "Lab2\\View\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:01:11.734Z",
               "EditorCaption": ""

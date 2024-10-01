@@ -14,6 +14,7 @@ namespace Library
             Menu menu = new Menu();
             int choice = menu.GetIntChoice(list);
             Console.WriteLine("Hello, World!");
+            Console.WriteLine(choice);
         }
     }
 }

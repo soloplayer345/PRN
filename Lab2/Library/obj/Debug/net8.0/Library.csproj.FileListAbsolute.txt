@@ -1,0 +1,14 @@
+D:\tài liệu\PRN211\code\Lab2\Library\bin\Debug\net8.0\Library.exe
+D:\tài liệu\PRN211\code\Lab2\Library\bin\Debug\net8.0\Library.deps.json
+D:\tài liệu\PRN211\code\Lab2\Library\bin\Debug\net8.0\Library.runtimeconfig.json
+D:\tài liệu\PRN211\code\Lab2\Library\bin\Debug\net8.0\Library.dll
+D:\tài liệu\PRN211\code\Lab2\Library\bin\Debug\net8.0\Library.pdb
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.AssemblyInfoInputs.cache
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.AssemblyInfo.cs
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.csproj.CoreCompileInputs.cache
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.dll
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\refint\Library.dll
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.pdb
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\Library.genruntimeconfig.cache
+D:\tài liệu\PRN211\code\Lab2\Library\obj\Debug\net8.0\ref\Library.dll

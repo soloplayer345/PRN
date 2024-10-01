@@ -11,9 +11,9 @@ namespace Lab2
     {
         public int GetIntChoice(ArrayList list)
         {
-            for (int i = 0; i < list.Count; i++)
+            foreach (var item in list)
             {
-                Console.WriteLine($"{i+1} : ${list.IndexOf(i)}");
+                Console.WriteLine($"{list.IndexOf(item)+1} : {item}");
             }
             Console.WriteLine($"Please choose 1 to {list.Count}: ");
             Console.WriteLine("---------------------------");
