@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Lab2.Controller;
+using Lab2.Model;
+using System.Collections;
 namespace Lab2.View
 {
     internal class Program
@@ -11,49 +13,89 @@ namespace Lab2.View
             role.Add("Guest");
             role.Add("Staff");
             Menu choice = new Menu();
-            int roleChoice = choice.GetIntChoice(role);
-            switch (roleChoice)
-            {
-                case 1:
-                    Console.WriteLine("Guest");
-                    break;
-                case 2:
-                    Console.WriteLine("Please enter your password: ");
-                    string password = Console.ReadLine();
-                    if (password == "123")
+            String roleChoice = choice.GetNumberChoice(role);
+            Boolean continueRole = true;
+                switch (roleChoice)
+                {
+                    case "1":
+                    ArrayList cutomerAction = new ArrayList();
+                    CustomerController customerController = new CustomerController();
+                    customerController.viewTheMenu();
+                    cutomerAction.Add("Order");
+                    cutomerAction.Add("Reviewing Cart");
+                    cutomerAction.Add("Placing an Order");
+                    cutomerAction.Add("Exit");
+                    //do
+                    //{
+                    //    switch(cutomerAction):
+                    //        {
+                    //               case "1":
+                    //            customerController.order();
+                    //            Console.WriteLine("\n----------------\n");
+                    //            break;
+                    //        case "2":
+                    //            customerController.reviewCart();
+                    //            Console.WriteLine("\n----------------\n");
+                    //            break;
+                    //        case "3":
+                    //            customerController.placeOrder();
+                    //            Console.WriteLine("\n----------------\n");
+                    //            break;
+                    //        case "4":
+                    //            continueRole = false;
+                    //            break;
+                    //        }
+                    //}
+                    //while (continueRole);
+                        break;
+                    case "2":
+                        Console.WriteLine("Please enter your password: ");
+                        string password = Console.ReadLine();
+                    do
                     {
-                        ArrayList action = new ArrayList();
-                        action.Add("Add new food");
-                        action.Add("Update food");
-                        action.Add("Delete food");
-                        action.Add("View all food");
-                        action.Add("Exit");
-                        int actionChoice = choice.GetIntChoice(action);
-                        switch(actionChoice)
+                        if (password == "123")
                         {
-                            case 1:
-                                Console.WriteLine("Add new food");
-                                break;
-                            case 2:
-                                Console.WriteLine("Update food");
-                                break;
-                            case 3:
-                                Console.WriteLine("Delete food");
-                                break;
-                            case 4:
-                                Console.WriteLine("View all food");
-                                break;
-                            case 5:
-                                Console.WriteLine("Exit");
-                                break;
+                            AdminController adminController = new AdminController();
+                            ArrayList adminAction = new ArrayList();
+                            adminAction.Add("Add new food");
+                            adminAction.Add("Update food");
+                            adminAction.Add("Delete food");
+                            adminAction.Add("View all food");
+                            adminAction.Add("Exit");
+                            string actionChoice = choice.GetNumberChoice(adminAction);
+                            switch (actionChoice)
+                            {
+                                case "1":                                   
+                                    adminController.addFood();
+                                    Console.WriteLine("\n----------------\n");
+                                    break;
+                                case "2":                                 
+                                    adminController.updateFood();
+                                    Console.WriteLine("\n----------------\n");
+                                    break;
+                                case "3":
+                                    adminController.removeFood();
+                                    Console.WriteLine("\n----------------\n");
+                                    break;
+                                case "4":
+                                    adminController.viewAllFood();
+                                    Console.WriteLine("\n----------------\n");
+                                    break;
+                                case "5":
+                                    continueRole = false;
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Wrong password");
+                            continueRole = false;
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine("Wrong password");
-                    }
-                    break;
-            }
+                    while (continueRole);
+                        break;
+                }
+            } 
         }
     }
-}
+

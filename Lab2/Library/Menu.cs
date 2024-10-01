@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Lab2
 {
     public class Menu
     {
-        public int GetIntChoice(ArrayList list)
+        public String GetNumberChoice(ArrayList list)
         {
             foreach (var item in list)
             {
@@ -17,7 +18,7 @@ namespace Lab2
             }
             Console.WriteLine($"Please choose 1 to {list.Count}: ");
             Console.WriteLine("---------------------------");
-            return Convert.ToInt32(Console.ReadLine());
+            return Console.ReadLine();
         }
     }
 }
