@@ -1,17 +1,10 @@
 ﻿using Lab2.Model;
-using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab2.Controller
 {
     internal class CustomerController
     {
-        ArrayList cartList = new ArrayList();
+        List<Food> cartList = new List<Food>();
         public void viewTheMenu()
         {          
             FoodContext FoodContext = new FoodContext();
@@ -39,11 +32,19 @@ namespace Lab2.Controller
             }
             else
             {
-                Console.WriteLine("Enter quantity: ");
-                int quantity = int.Parse(Console.ReadLine());
-
-                //cartList.Add(cart);
+                //Console.WriteLine("Enter quantity: ");
+                //int quantity = int.Parse(Console.ReadLine());
+                cartList.Add(food);
             }
+        }
+        public void viewCart() {
+            double sum = 0;
+            foreach (Food food in cartList)
+            {
+                Console.WriteLine($"{food.Name} - {food.Price}");
+                sum=sum+food.Price;
+            }
+            Console.WriteLine($"sum: {sum}VND");
         }
     }
 }

@@ -18,35 +18,36 @@ namespace Lab2.View
                 switch (roleChoice)
                 {
                     case "1":
-                    ArrayList cutomerAction = new ArrayList();
+                    ArrayList cutomerAction = new ArrayList();          
                     CustomerController customerController = new CustomerController();
                     customerController.viewTheMenu();
                     cutomerAction.Add("Order");
                     cutomerAction.Add("Reviewing Cart");
                     cutomerAction.Add("Placing an Order");
                     cutomerAction.Add("Exit");
-                    //do
-                    //{
-                    //    switch(cutomerAction):
-                    //        {
-                    //               case "1":
-                    //            customerController.order();
-                    //            Console.WriteLine("\n----------------\n");
-                    //            break;
-                    //        case "2":
-                    //            customerController.reviewCart();
-                    //            Console.WriteLine("\n----------------\n");
-                    //            break;
-                    //        case "3":
-                    //            customerController.placeOrder();
-                    //            Console.WriteLine("\n----------------\n");
-                    //            break;
-                    //        case "4":
-                    //            continueRole = false;
-                    //            break;
-                    //        }
-                    //}
-                    //while (continueRole);
+                    do
+                    {
+                        string customerChoice = choice.GetNumberChoice(cutomerAction);
+                        switch (customerChoice) 
+                        {
+                            case "1":
+                                customerController.orderFood();
+                                Console.WriteLine("\n----------------\n");
+                                break;
+                            case "2":
+                                customerController.viewCart();
+                                Console.WriteLine("\n----------------\n");
+                                break;
+                                case"3":
+                                //tao io sau
+                                    break;
+                            case "4":
+                                Console.WriteLine("thank you");
+                                continueRole = false;
+                                break;
+                        }
+                    }
+                    while (continueRole);
                         break;
                     case "2":
                         Console.WriteLine("Please enter your password: ");
