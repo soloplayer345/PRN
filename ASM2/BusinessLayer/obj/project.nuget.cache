@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KrFOOwEY0AADatle/1rx5xUSxWntJELQMntu5QpMXV8hQ9l83ZbnMKIOnvI+JhoRozLZ35401WSPWtWxeZw0tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\code\\C#\\ASM2\\BusinessLayer\\BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.interop\\17.11.40262\\microsoft.visualstudio.interop.17.11.40262.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\17.11.40262\\microsoft.visualstudio.ole.interop.17.11.40262.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
