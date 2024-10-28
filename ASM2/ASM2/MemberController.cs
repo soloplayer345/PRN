@@ -1,12 +1,11 @@
 ﻿using BusinessLayer;
-
 using RepositoryLayer;
 
 namespace PresentationLayer
 {
-    internal class MemberController
+    public class MemberController
     {
-        private readonly MemberBusinesslayer memberBusinesslayer;
+        MemberBusinesslayer memberBusinesslayer;
 
         public Member Create(Member member)
         {

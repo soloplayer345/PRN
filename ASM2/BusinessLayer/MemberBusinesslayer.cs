@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    internal class MemberBusinesslayer
+    public class MemberBusinesslayer
     {
         private readonly MemberRepository memberRepository;
 
