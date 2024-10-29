@@ -1,0 +1,4 @@
+D:\code\PRN211\Ass02Solution\Ass02Solution\obj\Debug\Ass02Solution.csproj.AssemblyReference.cache
+D:\code\PRN211\Ass02Solution\Ass02Solution\obj\Debug\Ass02Solution.Properties.Resources.resources
+D:\code\PRN211\Ass02Solution\Ass02Solution\obj\Debug\Ass02Solution.csproj.GenerateResource.cache
+D:\code\PRN211\Ass02Solution\Ass02Solution\obj\Debug\Ass02Solution.csproj.CoreCompileInputs.cache
