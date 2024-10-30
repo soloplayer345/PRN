@@ -36,11 +36,47 @@ namespace PresentationLayer
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            TxtId.Text = MemberList.SelectedItems[0].SubItems[0].Text;
+            TxtName.Text = MemberList.SelectedItems[0].SubItems[1].Text;
+            TxtEmail.Text = MemberList.SelectedItems[0].SubItems[2].Text;
+            TxtPassword.Text = MemberList.SelectedItems[0].SubItems[3].Text;
+            TxtCity.Text = MemberList.SelectedItems[0].SubItems[4].Text;
+            TxtCountry.Text = MemberList.SelectedItems[0].SubItems[5].Text;
         }
 
         private void MemberForm_Load(object sender, EventArgs e)
         {
+            Read();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Updatebtn_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(TxtId.Text);
+            memberController.Update(id, new Member
+            {
+                Id = id,
+                Name = TxtName.Text,
+                Email = TxtEmail.Text,
+                Password = TxtPassword.Text,
+                City = TxtCity.Text,
+                Country = TxtCountry.Text
+            });
+            MemberList.Items.Clear();
             Read();
         }
     }
