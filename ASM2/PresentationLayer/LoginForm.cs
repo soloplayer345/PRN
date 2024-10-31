@@ -3,6 +3,7 @@ namespace PresentationLayer
     public partial class LoginForm : Form
     {
         MemberForm memberForm = new MemberForm();
+        AdminForm AdminForm = new AdminForm();
         MemberController memberController = new MemberController();
         public LoginForm()
         {
@@ -26,16 +27,18 @@ namespace PresentationLayer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //if (memberController.Login(EmailTextBox.Text,passwordTxt.Text) != null) 
-            //{
+            if (memberController.Login(EmailTextBox.Text, passwordTxt.Text) != null)
+            {
                 this.Hide();
-                memberForm.ShowDialog();
+                //memberForm.ShowDialog();
+                AdminForm.ShowDialog();
                 this.Show();
-            //}
-            //else 
-            //{
-            //    MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
-            //}
+            }
+            else
+            {
+                MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
+            }
+
         }
 
         private void Form(object sender, FormClosingEventArgs e)
@@ -44,6 +47,11 @@ namespace PresentationLayer
         }
 
         private void FromClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void passwordTxt_TextChanged(object sender, EventArgs e)
         {
 
         }

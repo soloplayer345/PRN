@@ -34,8 +34,12 @@ namespace PresentationLayer
             }
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e) //bug binding data to textbox when click on listview item
         {
+            if (MemberList.SelectedItems.Count == 0)
+            {
+                return;
+            }
             TxtId.Text = MemberList.SelectedItems[0].SubItems[0].Text;
             TxtName.Text = MemberList.SelectedItems[0].SubItems[1].Text;
             TxtEmail.Text = MemberList.SelectedItems[0].SubItems[2].Text;

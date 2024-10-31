@@ -13,7 +13,8 @@ namespace RepositoryLayer
         {
             AminAccount(),
             new Member{Id=2,Name="B",Email="B@mail.com",Password="B",City="B",Country="Not Asian" },
-            new Member{Id=3,Name="Charlie",Email="Charlie@hotmail.com",Password="password",City="London",Country="UK"}
+            new Member{Id=3,Name="Charlie",Email="Charlie@hotmail.com",Password="password",City="London",Country="UK"},
+            new Member{Id=4,Name="D",Email="",Password="",City="D",Country="D" }
         };
 
         public Member Create(Member member)
