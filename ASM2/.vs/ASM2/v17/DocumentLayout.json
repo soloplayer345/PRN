@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\PRN211\\ASM2\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\admin\\documents\\prn211\\asm2\\presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{376B0DA1-A1BF-4D65-ACFD-AC9E0425732D}|RepositoryLayer\\RepositoryLayer.csproj|d:\\code\\prn211\\asm2\\repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376B0DA1-A1BF-4D65-ACFD-AC9E0425732D}|RepositoryLayer\\RepositoryLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{376B0DA1-A1BF-4D65-ACFD-AC9E0425732D}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|d:\\code\\prn211\\asm2\\presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F69DAB53-C883-40C5-BE89-8F894C32E383}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\businesslayer\\memberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F69DAB53-C883-40C5-BE89-8F894C32E383}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\memberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\memberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{289EA73D-5A70-4E55-AB49-A39483D77946}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,125 +50,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminForm.Designer.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.Designer.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.Designer.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.Designer.cs",
-              "RelativeToolTip": "PresentationLayer\\AdminForm.Designer.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwKIAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MemberBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\BusinessLayer\\MemberBusiness.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\MemberBusiness.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\BusinessLayer\\MemberBusiness.cs",
+              "RelativeToolTip": "BusinessLayer\\MemberBusiness.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:36:02.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T15:55:53.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
+              "RelativeToolTip": "PresentationLayer\\AdminForm.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:30:56.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:17:57.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.Designer.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\AdminForm.Designer.cs",
+              "RelativeToolTip": "PresentationLayer\\AdminForm.Designer.cs",
+              "ViewState": "AQIAAMgBAAAAAAAAAAAYwNABAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:36:02.482Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MemberForm.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\MemberForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
               "RelativeToolTip": "PresentationLayer\\MemberForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAABLAAAAAAAAAA==",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAQwEkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:24:49.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T21:24:49.538Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MemberController.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberController.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\MemberController.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberController.cs",
               "RelativeToolTip": "PresentationLayer\\MemberController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:24:21.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T21:24:21.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\MemberForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\MemberForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:16:01.564Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
-              "RelativeToolTip": "PresentationLayer\\AdminForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:18:24.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\AdminForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\AdminForm.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\AdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:17:57.748Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MemberForm.cs [Design]",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\MemberForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\MemberForm.cs [Design]",
-              "RelativeToolTip": "PresentationLayer\\MemberForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T21:16:01.564Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "MemberRepository.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\RepositoryLayer\\MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\RepositoryLayer\\MemberRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\MemberRepository.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\RepositoryLayer\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\RepositoryLayer\\MemberRepository.cs",
               "RelativeToolTip": "RepositoryLayer\\MemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAARAAAAAAAAAA==",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:09:02.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T18:09:02.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\LoginForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
               "RelativeToolTip": "PresentationLayer\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowDMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T18:05:44.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\LoginForm.cs",
-              "ToolTip": "D:\\code\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\ASM2\\PresentationLayer\\LoginForm.cs [Design]",
               "RelativeToolTip": "PresentationLayer\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:05:40.891Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-31T18:05:40.891Z"
             }
           ]
         }

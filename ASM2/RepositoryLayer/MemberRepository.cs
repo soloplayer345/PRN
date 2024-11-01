@@ -29,7 +29,7 @@ namespace RepositoryLayer
 
         public void Update(int id, Member member)
         {
-            members[id] = member;
+            members.FirstOrDefault(x => x.Id == id);
         }
 
         public void Delete(int id)

@@ -1,3 +1,5 @@
+using RepositoryLayer;
+
 namespace PresentationLayer
 {
     public partial class LoginForm : Form
@@ -27,17 +29,23 @@ namespace PresentationLayer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (memberController.Login(EmailTextBox.Text, passwordTxt.Text) != null)
+            Member member = memberController.Login(EmailTextBox.Text, passwordTxt.Text);
+
+            if (member == null)
             {
-                this.Hide();
-                //memberForm.ShowDialog();
+                MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
+                return;
+            }
+            this.Hide();
+            if (member.Email == "admin@fstore.com"&& member.Password== "admin@@")
+            {
                 AdminForm.ShowDialog();
-                this.Show();
             }
             else
             {
-                MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
+                memberForm.ShowDialog();
             }
+            this.Show();
 
         }
 
