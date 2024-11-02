@@ -29,22 +29,22 @@ namespace PresentationLayer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Member member = memberController.Login(EmailTextBox.Text, passwordTxt.Text);
+            //Member member = memberController.Login(EmailTextBox.Text, passwordTxt.Text);
 
-            if (member == null)
-            {
-                MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
-                return;
-            }
+            //if (member == null)
+            //{
+            //    MessageBox.Show("wrong account", "Error", MessageBoxButtons.OKCancel);
+            //    return;
+            //}
             this.Hide();
-            if (member.Email == "admin@fstore.com"&& member.Password== "admin@@")
-            {
-                AdminForm.ShowDialog();
-            }
-            else
-            {
-                memberForm.ShowDialog();
-            }
+            //if (member.Email == "admin@fstore.com"&& member.Password== "admin@@")
+            //{
+            //AdminForm.ShowDialog();
+            //}
+            //else
+            //{
+            memberForm.ShowDialog();
+            //}
             this.Show();
 
         }

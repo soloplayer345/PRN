@@ -25,11 +25,26 @@ namespace RepositoryLayer
 
         public List<Member> GetAllMembers() { return members; }
 
-        public Member GetMember(int id) { return members[id]; }
+        public Member GetMember(int id) { return members.Find(m=>m.Id == id); }
 
         public void Update(int id, Member member)
         {
-            members.FirstOrDefault(x => x.Id == id);
+            //for (int i = 0; i < members.Count; i++) 
+            //{
+            //    if (members[i].Id == id) 
+            //    {
+            //        members[i] = member;
+            //    }
+            //}
+            Member memberUpdate = GetMember(id);
+            if(memberUpdate != null)
+            {
+                memberUpdate.Email = member.Email;
+                memberUpdate.Password = member.Password;
+                memberUpdate.City = member.City;
+                memberUpdate.Country = member.Country;
+                memberUpdate.Name = member.Name;
+            }
         }
 
         public void Delete(int id)

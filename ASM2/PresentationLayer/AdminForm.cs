@@ -41,17 +41,18 @@ namespace PresentationLayer
             {
                 return;
             }
-            Id.Text = MemberList.SelectedItems[0].SubItems[0].Text;
-            Name.Text = MemberList.SelectedItems[0].SubItems[1].Text;
-            Email.Text = MemberList.SelectedItems[0].SubItems[2].Text;
-            Password.Text = MemberList.SelectedItems[0].SubItems[3].Text;
-            City.Text = MemberList.SelectedItems[0].SubItems[4].Text;
-            Country.Text = MemberList.SelectedItems[0].SubItems[5].Text;
+            //Id.Text = MemberList.SelectedItems[0].SubItems[0].Text;
+            //Name.Text = MemberList.SelectedItems[0].SubItems[1].Text;
+            //Email.Text = MemberList.SelectedItems[0].SubItems[2].Text;
+            //Password.Text = MemberList.SelectedItems[0].SubItems[3].Text;
+            //City.Text = MemberList.SelectedItems[0].SubItems[4].Text;
+            //Country.Text = MemberList.SelectedItems[0].SubItems[5].Text;
 
         }
 
         private void AdminForm_Load(object sender, EventArgs e)
         {
+            MemberList.Items.Clear();
             Read();
         }
 
@@ -63,6 +64,23 @@ namespace PresentationLayer
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Addbtn_Click(object sender, EventArgs e)
+        {
+            List<Member> members = memberController.Get();
+            int id = members.Count;
+            memberController.Update(id, new Member
+            {
+                Id = id,
+                Name = NameAdding.Text,
+                Email = EmailAdding.Text,
+                Password = PasswordAdding.Text,
+                City = CityAdding.Text,
+                Country = CountryAdding.Text
+            });
+            MemberList.Items.Clear();
+            Read();
         }
     }
 }

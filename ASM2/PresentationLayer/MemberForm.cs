@@ -50,6 +50,7 @@ namespace PresentationLayer
 
         private void MemberForm_Load(object sender, EventArgs e)
         {
+            MemberList.Items.Clear();
             Read();
         }
 
