@@ -25,19 +25,19 @@ namespace RepositoryLayer
 
         public List<Member> GetAllMembers() { return members; }
 
-        public Member GetMember(int id) { return members.Find(m=>m.Id == id); }
+        public Member? GetMember(int id) { return members.Find(m => m.Id == id); }
 
         public void Update(int id, Member member)
         {
-            //for (int i = 0; i < members.Count; i++) 
+            //for (int i = 0; i < members.Count; i++)
             //{
-            //    if (members[i].Id == id) 
+            //    if (members[i].Id == id)
             //    {
             //        members[i] = member;
             //    }
             //}
-            Member memberUpdate = GetMember(id);
-            if(memberUpdate != null)
+            Member? memberUpdate = GetMember(id);
+            if (memberUpdate != null)
             {
                 memberUpdate.Email = member.Email;
                 memberUpdate.Password = member.Password;
@@ -49,10 +49,14 @@ namespace RepositoryLayer
 
         public void Delete(int id)
         {
-            members.RemoveAt(id);
+            Member? deletedMember = GetMember(id);
+            if (deletedMember != null)
+            {
+                members.Remove(deletedMember);
+            }
         }
 
-        public Member Login(string email, string password)
+        public Member? Login(string email, string password)
         {
             foreach (Member member in members)
             {
@@ -64,7 +68,7 @@ namespace RepositoryLayer
             return null;
         }
 
-        private static Member AminAccount()
+        private static Member? AminAccount()
         {
             // Đường dẫn tới tệp JSON
             string filePath = "appSettings.json";
@@ -73,7 +77,7 @@ namespace RepositoryLayer
             string jsonData = File.ReadAllText(filePath);
 
             // Chuyển đổi JSON thành đối tượng C#
-            Member admin = JsonConvert.DeserializeObject<Member>(jsonData);
+            Member? admin = JsonConvert.DeserializeObject<Member>(jsonData);
             return admin;
         }
     }

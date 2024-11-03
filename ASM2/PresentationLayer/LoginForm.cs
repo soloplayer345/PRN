@@ -39,11 +39,11 @@ namespace PresentationLayer
             this.Hide();
             //if (member.Email == "admin@fstore.com"&& member.Password== "admin@@")
             //{
-            //AdminForm.ShowDialog();
+            AdminForm.ShowDialog();
             //}
             //else
             //{
-            memberForm.ShowDialog();
+            //memberForm.ShowDialog();
             //}
             this.Show();
 

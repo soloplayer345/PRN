@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ListViewItem listViewItem1 = new ListViewItem("");
+            ListViewItem listViewItem2 = new ListViewItem("");
             splitContainer1 = new SplitContainer();
             tabControl1 = new TabControl();
             AddPage = new TabPage();
@@ -49,23 +49,27 @@
             NameAdding = new TextBox();
             label1 = new Label();
             SearchPage = new TabPage();
-            UpdatePage = new TabPage();
+            EditPage = new TabPage();
+            Delete = new Button();
+            Updatebtn = new Button();
+            panel11 = new Panel();
+            TxtId = new TextBox();
+            label11 = new Label();
             panel6 = new Panel();
-            textBox1 = new TextBox();
+            TxtCountry = new TextBox();
             label6 = new Label();
             panel7 = new Panel();
-            textBox2 = new TextBox();
+            TxtCity = new TextBox();
             label7 = new Label();
             panel8 = new Panel();
-            textBox3 = new TextBox();
+            TxtEmail = new TextBox();
             label8 = new Label();
             panel9 = new Panel();
-            textBox4 = new TextBox();
+            TxtPassword = new TextBox();
             label9 = new Label();
             panel10 = new Panel();
-            textBox5 = new TextBox();
+            TxtName = new TextBox();
             label10 = new Label();
-            DeletePage3 = new TabPage();
             MemberList = new ListView();
             Id = new ColumnHeader();
             Name = new ColumnHeader();
@@ -73,6 +77,9 @@
             Password = new ColumnHeader();
             City = new ColumnHeader();
             Country = new ColumnHeader();
+            label12 = new Label();
+            SearchedId = new TextBox();
+            Searchbtn = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -84,7 +91,9 @@
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
-            UpdatePage.SuspendLayout();
+            SearchPage.SuspendLayout();
+            EditPage.SuspendLayout();
+            panel11.SuspendLayout();
             panel6.SuspendLayout();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
@@ -113,8 +122,7 @@
             // 
             tabControl1.Controls.Add(AddPage);
             tabControl1.Controls.Add(SearchPage);
-            tabControl1.Controls.Add(UpdatePage);
-            tabControl1.Controls.Add(DeletePage3);
+            tabControl1.Controls.Add(EditPage);
             tabControl1.Dock = DockStyle.Fill;
             tabControl1.Location = new Point(0, 0);
             tabControl1.Name = "tabControl1";
@@ -277,6 +285,9 @@
             // 
             // SearchPage
             // 
+            SearchPage.Controls.Add(Searchbtn);
+            SearchPage.Controls.Add(SearchedId);
+            SearchPage.Controls.Add(label12);
             SearchPage.Location = new Point(4, 24);
             SearchPage.Name = "SearchPage";
             SearchPage.Padding = new Padding(3);
@@ -285,36 +296,86 @@
             SearchPage.Text = "Search";
             SearchPage.UseVisualStyleBackColor = true;
             // 
-            // UpdatePage
+            // EditPage
             // 
-            UpdatePage.Controls.Add(panel6);
-            UpdatePage.Controls.Add(panel7);
-            UpdatePage.Controls.Add(panel8);
-            UpdatePage.Controls.Add(panel9);
-            UpdatePage.Controls.Add(panel10);
-            UpdatePage.Location = new Point(4, 24);
-            UpdatePage.Name = "UpdatePage";
-            UpdatePage.Padding = new Padding(3);
-            UpdatePage.Size = new Size(258, 422);
-            UpdatePage.TabIndex = 2;
-            UpdatePage.Text = "Update";
-            UpdatePage.UseVisualStyleBackColor = true;
+            EditPage.Controls.Add(Delete);
+            EditPage.Controls.Add(Updatebtn);
+            EditPage.Controls.Add(panel11);
+            EditPage.Controls.Add(panel6);
+            EditPage.Controls.Add(panel7);
+            EditPage.Controls.Add(panel8);
+            EditPage.Controls.Add(panel9);
+            EditPage.Controls.Add(panel10);
+            EditPage.Location = new Point(4, 24);
+            EditPage.Name = "EditPage";
+            EditPage.Padding = new Padding(3);
+            EditPage.Size = new Size(258, 422);
+            EditPage.TabIndex = 2;
+            EditPage.Text = "Edit";
+            EditPage.UseVisualStyleBackColor = true;
+            // 
+            // Delete
+            // 
+            Delete.Location = new Point(178, 395);
+            Delete.Name = "Delete";
+            Delete.Size = new Size(75, 23);
+            Delete.TabIndex = 12;
+            Delete.Text = "Delete";
+            Delete.UseVisualStyleBackColor = true;
+            Delete.Click += Delete_Click;
+            // 
+            // Updatebtn
+            // 
+            Updatebtn.Location = new Point(4, 395);
+            Updatebtn.Name = "Updatebtn";
+            Updatebtn.Size = new Size(75, 23);
+            Updatebtn.TabIndex = 11;
+            Updatebtn.Text = "Update";
+            Updatebtn.UseVisualStyleBackColor = true;
+            Updatebtn.Click += Updatebtn_Click;
+            // 
+            // panel11
+            // 
+            panel11.Controls.Add(TxtId);
+            panel11.Controls.Add(label11);
+            panel11.Location = new Point(0, 3);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(263, 65);
+            panel11.TabIndex = 10;
+            // 
+            // TxtId
+            // 
+            TxtId.Enabled = false;
+            TxtId.Location = new Point(3, 24);
+            TxtId.Name = "TxtId";
+            TxtId.Size = new Size(257, 23);
+            TxtId.TabIndex = 1;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(3, 6);
+            label11.Name = "label11";
+            label11.Size = new Size(17, 15);
+            label11.TabIndex = 0;
+            label11.Text = "Id";
             // 
             // panel6
             // 
-            panel6.Controls.Add(textBox1);
+            panel6.Controls.Add(TxtCountry);
             panel6.Controls.Add(label6);
-            panel6.Location = new Point(4, 251);
+            panel6.Location = new Point(4, 333);
             panel6.Name = "panel6";
             panel6.Size = new Size(249, 56);
             panel6.TabIndex = 9;
             // 
-            // textBox1
+            // TxtCountry
             // 
-            textBox1.Location = new Point(5, 18);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(241, 23);
-            textBox1.TabIndex = 1;
+            TxtCountry.Location = new Point(5, 18);
+            TxtCountry.Name = "TxtCountry";
+            TxtCountry.Size = new Size(241, 23);
+            TxtCountry.TabIndex = 1;
+            TxtCountry.TextChanged += textBox1_TextChanged;
             // 
             // label6
             // 
@@ -327,19 +388,19 @@
             // 
             // panel7
             // 
-            panel7.Controls.Add(textBox2);
+            panel7.Controls.Add(TxtCity);
             panel7.Controls.Add(label7);
-            panel7.Location = new Point(6, 189);
+            panel7.Location = new Point(4, 271);
             panel7.Name = "panel7";
             panel7.Size = new Size(249, 56);
             panel7.TabIndex = 8;
             // 
-            // textBox2
+            // TxtCity
             // 
-            textBox2.Location = new Point(5, 18);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(241, 23);
-            textBox2.TabIndex = 1;
+            TxtCity.Location = new Point(5, 18);
+            TxtCity.Name = "TxtCity";
+            TxtCity.Size = new Size(241, 23);
+            TxtCity.TabIndex = 1;
             // 
             // label7
             // 
@@ -352,19 +413,19 @@
             // 
             // panel8
             // 
-            panel8.Controls.Add(textBox3);
+            panel8.Controls.Add(TxtEmail);
             panel8.Controls.Add(label8);
-            panel8.Location = new Point(4, 65);
+            panel8.Location = new Point(4, 147);
             panel8.Name = "panel8";
             panel8.Size = new Size(249, 56);
             panel8.TabIndex = 7;
             // 
-            // textBox3
+            // TxtEmail
             // 
-            textBox3.Location = new Point(5, 18);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(241, 23);
-            textBox3.TabIndex = 1;
+            TxtEmail.Location = new Point(5, 18);
+            TxtEmail.Name = "TxtEmail";
+            TxtEmail.Size = new Size(241, 23);
+            TxtEmail.TabIndex = 1;
             // 
             // label8
             // 
@@ -377,19 +438,19 @@
             // 
             // panel9
             // 
-            panel9.Controls.Add(textBox4);
+            panel9.Controls.Add(TxtPassword);
             panel9.Controls.Add(label9);
-            panel9.Location = new Point(4, 127);
+            panel9.Location = new Point(4, 209);
             panel9.Name = "panel9";
             panel9.Size = new Size(249, 56);
             panel9.TabIndex = 6;
             // 
-            // textBox4
+            // TxtPassword
             // 
-            textBox4.Location = new Point(5, 18);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(241, 23);
-            textBox4.TabIndex = 1;
+            TxtPassword.Location = new Point(5, 18);
+            TxtPassword.Name = "TxtPassword";
+            TxtPassword.Size = new Size(241, 23);
+            TxtPassword.TabIndex = 1;
             // 
             // label9
             // 
@@ -402,19 +463,19 @@
             // 
             // panel10
             // 
-            panel10.Controls.Add(textBox5);
+            panel10.Controls.Add(TxtName);
             panel10.Controls.Add(label10);
-            panel10.Location = new Point(4, 3);
+            panel10.Location = new Point(3, 85);
             panel10.Name = "panel10";
             panel10.Size = new Size(249, 56);
             panel10.TabIndex = 5;
             // 
-            // textBox5
+            // TxtName
             // 
-            textBox5.Location = new Point(5, 18);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(241, 23);
-            textBox5.TabIndex = 1;
+            TxtName.Location = new Point(5, 18);
+            TxtName.Name = "TxtName";
+            TxtName.Size = new Size(241, 23);
+            TxtName.TabIndex = 1;
             // 
             // label10
             // 
@@ -425,21 +486,11 @@
             label10.TabIndex = 0;
             label10.Text = "Name";
             // 
-            // DeletePage3
-            // 
-            DeletePage3.Location = new Point(4, 24);
-            DeletePage3.Name = "DeletePage3";
-            DeletePage3.Padding = new Padding(3);
-            DeletePage3.Size = new Size(258, 422);
-            DeletePage3.TabIndex = 3;
-            DeletePage3.Text = "Delete";
-            DeletePage3.UseVisualStyleBackColor = true;
-            // 
             // MemberList
             // 
             MemberList.Columns.AddRange(new ColumnHeader[] { Id, Name, Email, Password, City, Country });
             MemberList.Dock = DockStyle.Fill;
-            MemberList.Items.AddRange(new ListViewItem[] { listViewItem1 });
+            MemberList.Items.AddRange(new ListViewItem[] { listViewItem2 });
             MemberList.Location = new Point(0, 0);
             MemberList.Name = "MemberList";
             MemberList.Size = new Size(530, 450);
@@ -471,6 +522,32 @@
             // 
             Country.Text = "Country";
             // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(0, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(17, 15);
+            label12.TabIndex = 0;
+            label12.Text = "Id";
+            // 
+            // SearchedId
+            // 
+            SearchedId.Location = new Point(3, 18);
+            SearchedId.Name = "SearchedId";
+            SearchedId.Size = new Size(100, 23);
+            SearchedId.TabIndex = 1;
+            // 
+            // Searchbtn
+            // 
+            Searchbtn.Location = new Point(6, 47);
+            Searchbtn.Name = "Searchbtn";
+            Searchbtn.Size = new Size(75, 23);
+            Searchbtn.TabIndex = 2;
+            Searchbtn.Text = "Search";
+            Searchbtn.UseVisualStyleBackColor = true;
+            Searchbtn.Click += Searchbtn_Click;
+            // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -495,7 +572,11 @@
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            UpdatePage.ResumeLayout(false);
+            SearchPage.ResumeLayout(false);
+            SearchPage.PerformLayout();
+            EditPage.ResumeLayout(false);
+            panel11.ResumeLayout(false);
+            panel11.PerformLayout();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             panel7.ResumeLayout(false);
@@ -512,48 +593,55 @@
         #endregion
 
         private SplitContainer splitContainer1;
-        private TabControl tabControl1;
-        private TabPage AddPage;
-        private TabPage SearchPage;
         private ListView MemberList;
-        private TabPage UpdatePage;
-        private TabPage DeletePage3;
         private ColumnHeader Id;
         private ColumnHeader Name;
         private ColumnHeader Email;
         private ColumnHeader Password;
         private ColumnHeader City;
         private ColumnHeader Country;
-        private Panel panel1;
-        private Label label1;
-        private TextBox NameAdding;
+        private TabControl tabControl1;
+        private TabPage AddPage;
+        private Button Addbtn;
+        private Panel panel5;
+        private TextBox CountryAdding;
+        private Label label5;
+        private Panel panel4;
+        private TextBox CityAdding;
+        private Label label4;
         private Panel panel3;
         private TextBox EmailAdding;
         private Label label3;
         private Panel panel2;
         private TextBox PasswordAdding;
         private Label label2;
-        private Panel panel4;
-        private TextBox CityAdding;
-        private Label label4;
-        private Panel panel5;
-        private TextBox CountryAdding;
-        private Label label5;
+        private Panel panel1;
+        private TextBox NameAdding;
+        private Label label1;
+        private TabPage SearchPage;
+        private TabPage EditPage;
+        private Button Updatebtn;
+        private Panel panel11;
+        private TextBox TxtId;
+        private Label label11;
         private Panel panel6;
-        private TextBox textBox1;
+        private TextBox TxtCountry;
         private Label label6;
         private Panel panel7;
-        private TextBox textBox2;
+        private TextBox TxtCity;
         private Label label7;
         private Panel panel8;
-        private TextBox textBox3;
+        private TextBox TxtEmail;
         private Label label8;
         private Panel panel9;
-        private TextBox textBox4;
+        private TextBox TxtPassword;
         private Label label9;
         private Panel panel10;
-        private TextBox textBox5;
+        private TextBox TxtName;
         private Label label10;
-        private Button Addbtn;
+        private Button Delete;
+        private Button Searchbtn;
+        private TextBox SearchedId;
+        private Label label12;
     }
 }

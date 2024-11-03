@@ -35,18 +35,34 @@ namespace PresentationLayer
             }
         }
 
+        private void Read(int id)
+        {
+            List<Member> members = new List<Member>();
+            members.Add(memberController.Get(id));
+            foreach (Member member in members)
+            {
+                ListViewItem listItem = MemberList.Items.Add(member.Id.ToString());
+                listItem.SubItems.Add(member.Name);
+                listItem.SubItems.Add(member.Email);
+                listItem.SubItems.Add(member.Password);
+                listItem.SubItems.Add(member.City);
+                listItem.SubItems.Add(member.Country);
+                MemberList.View = View.Details;
+            }
+        }
+
         private void MemberList_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (MemberList.SelectedItems.Count == 0)
             {
                 return;
             }
-            //Id.Text = MemberList.SelectedItems[0].SubItems[0].Text;
-            //Name.Text = MemberList.SelectedItems[0].SubItems[1].Text;
-            //Email.Text = MemberList.SelectedItems[0].SubItems[2].Text;
-            //Password.Text = MemberList.SelectedItems[0].SubItems[3].Text;
-            //City.Text = MemberList.SelectedItems[0].SubItems[4].Text;
-            //Country.Text = MemberList.SelectedItems[0].SubItems[5].Text;
+            TxtId.Text = MemberList.SelectedItems[0].SubItems[0].Text;
+            TxtName.Text = MemberList.SelectedItems[0].SubItems[1].Text;
+            TxtEmail.Text = MemberList.SelectedItems[0].SubItems[2].Text;
+            TxtPassword.Text = MemberList.SelectedItems[0].SubItems[3].Text;
+            TxtCity.Text = MemberList.SelectedItems[0].SubItems[4].Text;
+            TxtCountry.Text = MemberList.SelectedItems[0].SubItems[5].Text;
 
         }
 
@@ -69,8 +85,8 @@ namespace PresentationLayer
         private void Addbtn_Click(object sender, EventArgs e)
         {
             List<Member> members = memberController.Get();
-            int id = members.Count;
-            memberController.Update(id, new Member
+            int id = members.Count + 1;
+            memberController.Create(new Member
             {
                 Id = id,
                 Name = NameAdding.Text,
@@ -81,6 +97,52 @@ namespace PresentationLayer
             });
             MemberList.Items.Clear();
             Read();
+        }
+
+        private void Updatebtn_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(TxtId.Text);
+            memberController.Update(id, new Member
+            {
+                Id = id,
+                Name = TxtName.Text,
+                Email = TxtEmail.Text,
+                Password = TxtPassword.Text,
+                City = TxtCity.Text,
+                Country = TxtCountry.Text
+            });
+            MemberList.Items.Clear();
+            Read();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(TxtId.Text);
+            if (MessageBox.Show("Are you sure you want to delete this member?", "Delete", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                memberController.Delete(id);
+            }
+            MemberList.Items.Clear();
+            Read();
+        }
+
+        private void Searchbtn_Click(object sender, EventArgs e)
+        {
+            String id = SearchedId.Text;
+            MemberList.Items.Clear();
+            if (id.Equals("")||id.Equals("0"))
+            {
+                Read();
+            }
+            else
+            {
+                Read(int.Parse(id));
+            }
         }
     }
 }
