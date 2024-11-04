@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Asm03Solution\\",
+  "WorkspaceRootPath": "D:\\code\\PRN211\\Asm03Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4B1826A-7340-4D65-AFF6-DA75ADA75D59}|BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\asm03solution\\businessobject\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4B1826A-7340-4D65-AFF6-DA75ADA75D59}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\appsetting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appsetting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\source\\repos\\asm03solution\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\salemanagmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\salemanagmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\asm03solution\\dataaccess\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1FBB4C-89B3-4E47-8CA6-172A2A49D67C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalemanagmentContext.cs",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\SalemanagmentContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\SalemanagmentContext.cs",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\SalemanagmentContext.cs",
+              "RelativeToolTip": "DataAccess\\SalemanagmentContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:22:35.018Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -27,25 +56,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Asm03Solution\\BusinessObject\\Class1.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Class1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Asm03Solution\\BusinessObject\\Class1.cs",
-              "RelativeToolTip": "BusinessObject\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:36:59.427Z",
+              "Title": "appsetting.json",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\appsetting.json",
+              "RelativeDocumentMoniker": "DataAccess\\appsetting.json",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\appsetting.json",
+              "RelativeToolTip": "DataAccess\\appsetting.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T19:44:58.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Asm03Solution\\DataAccess\\Class1.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Asm03Solution\\DataAccess\\Class1.cs",
-              "RelativeToolTip": "DataAccess\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Product.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Product.cs",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Product.cs",
+              "RelativeToolTip": "DataAccess\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:55:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DataAccess\\OrderDetail.cs",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\OrderDetail.cs",
+              "RelativeToolTip": "DataAccess\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:42:54.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Order.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Order.cs",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Order.cs",
+              "RelativeToolTip": "DataAccess\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:37:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Member.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Member.cs",
+              "ToolTip": "D:\\code\\PRN211\\Asm03Solution\\DataAccess\\Member.cs",
+              "RelativeToolTip": "DataAccess\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T15:51:12.111Z",
               "EditorCaption": ""

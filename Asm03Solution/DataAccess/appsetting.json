@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnectionString": "Server=(local);Database=Asm2;Encrypt=false;Trusted_Connection=true;TrustServerCertificate=True"
+  }
+}
