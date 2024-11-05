@@ -15,9 +15,16 @@ namespace DataAccess
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
 
+        public SalemanagmentContext() : base() 
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.;Database=Salemanagment;Trusted_Connection=True;");
+
+            optionsBuilder.UseSqlServer(ConnectionString());
+
+
         }
         private String ConnectionString()
         {
