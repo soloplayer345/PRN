@@ -12,7 +12,10 @@ namespace DataAccess
         public DateTime OrderDate { get; set; }
         public DateTime? RequiredDate { get; set; }
         public DateTime? ShipDate { get; set; }
-        public int ShipCountry { get; set; }
+        public int Freight { get; set; }
+
+        public int MemberId { get; set; }
+        public Member? Member { get; set; }
         public ICollection<OrderDetail>? OrderDetails { get; set; }
     }
 }

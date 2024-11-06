@@ -9,13 +9,14 @@ namespace DataAccess
     public class Product
     {
 
-        public int productId { get; set; }
-        public required string productName { get; set; }
-        public int categoryId { get; set; }
+        public int ProductId { get; set; }
+        public required string ProductName { get; set; }
+        public int CategoryId { get; set; }
         public required string Weight { get; set; }
-        public int unitPrice { get; set; }
-        public int unitsInStock { get; set; }
+        public int UnitPrice { get; set; }
+        public int UnitsInStock { get; set; }
 
+        public int OrderDetailId { get; set; }
         public OrderDetail? OrderDetail { get; set; }
     }
 }

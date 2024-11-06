@@ -33,7 +33,7 @@ namespace DataAccess
             {
                 using (var context = new SalemanagmentContext())
                 {
-                    product = context.Products.FirstOrDefault(x => x.productId.Equals(id));
+                    product = context.Products.FirstOrDefault(x => x.ProductId.Equals(id));
                 }
             }
             catch (Exception ex)
@@ -50,7 +50,7 @@ namespace DataAccess
             {
                 using (var context = new SalemanagmentContext())
                 {
-                    product = context.Products.FirstOrDefault(x => x.unitPrice.Equals(unitPrice));
+                    product = context.Products.FirstOrDefault(x => x.UnitPrice.Equals(unitPrice));
                 }
             }
             catch (Exception ex)
@@ -67,7 +67,7 @@ namespace DataAccess
             {
                 using (var context = new SalemanagmentContext())
                 {
-                    product = context.Products.FirstOrDefault(x => x.unitsInStock.Equals(unitInStock));
+                    product = context.Products.FirstOrDefault(x => x.UnitsInStock.Equals(unitInStock));
                 }
             }
             catch (Exception ex)
@@ -84,7 +84,7 @@ namespace DataAccess
         //    {
         //        using (var context = new SalemanagmentContext())
         //        {
-        //            product = context.Products.FirstOrDefault(x => x.productName.IndexOf);
+        //            product = context.Products.FirstOrDefault(x => x.ProductName.IndexOf);
         //        }
         //    }
         //    catch (Exception ex)
