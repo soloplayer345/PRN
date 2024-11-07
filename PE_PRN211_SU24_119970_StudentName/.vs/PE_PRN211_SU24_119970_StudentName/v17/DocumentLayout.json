@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BCAAFCB-8B9D-4895-BC9C-DAF06DDFCB71}|DataAccessObjects\\DataAccessObjects.csproj|c:\\users\\admin\\desktop\\pe_prn211_su24_119970_studentname\\dataaccessobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BCAAFCB-8B9D-4895-BC9C-DAF06DDFCB71}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4AE008-BB0A-4AEA-8FBD-79185C8EB255}|Repository\\Repository.csproj|C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4AE008-BB0A-4AEA-8FBD-79185C8EB255}|Repository\\Repository.csproj|solutionrelative:repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF59E4-C196-424A-A032-FABB88A2A3AF}|BusinessService\\BusinessService.csproj|C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\businessservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF59E4-C196-424A-A032-FABB88A2A3AF}|BusinessService\\BusinessService.csproj|solutionrelative:businessservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC6092-11E4-4B03-87A7-B7361AF9EB49}|Euro2024NewsManagement_StudentName\\Euro2024NewsManagement_StudentName.csproj|C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\euro2024newsmanagement_studentname\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6BC6092-11E4-4B03-87A7-B7361AF9EB49}|Euro2024NewsManagement_StudentName\\Euro2024NewsManagement_StudentName.csproj|solutionrelative:euro2024newsmanagement_studentname\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\DataAccessObjects\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccessObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\DataAccessObjects\\Class1.cs",
+              "RelativeToolTip": "DataAccessObjects\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:18:53.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\Repository\\Class1.cs",
+              "RelativeDocumentMoniker": "Repository\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\Repository\\Class1.cs",
+              "RelativeToolTip": "Repository\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:10:36.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\BusinessService\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessService\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\BusinessService\\Class1.cs",
+              "RelativeToolTip": "BusinessService\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:09:22.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\Euro2024NewsManagement_StudentName\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Euro2024NewsManagement_StudentName\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PE_PRN211_SU24_119970_StudentName\\Euro2024NewsManagement_StudentName\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Euro2024NewsManagement_StudentName\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:40:03.239Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
