@@ -1,4 +1,6 @@
 
+using BusinessService;
+
 namespace eStore
 {
     public class Program
@@ -10,6 +12,7 @@ namespace eStore
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddTransient<MemberService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

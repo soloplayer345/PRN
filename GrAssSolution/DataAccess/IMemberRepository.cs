@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    internal interface IMemberRepository : IDisposable
+    public interface IMemberRepository : IDisposable
     {
         IEnumerable<Member> GetMembers();
-        Member GetMember(int id);
+        Member? GetMember(int id);
         void AddMember(Member member);
         void RemoveMember(Member member);
         void UpdateMember(Member member);

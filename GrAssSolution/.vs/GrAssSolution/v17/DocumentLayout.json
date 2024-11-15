@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\PRN211\\GrAssSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\grasssolution\\dataaccess\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|c:\\users\\admin\\documents\\prn211\\grasssolution\\estore\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|solutionrelative:estore\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|c:\\users\\admin\\documents\\prn211\\grasssolution\\estore\\model\\reponse\\memberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|solutionrelative:estore\\model\\reponse\\memberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|c:\\users\\admin\\documents\\prn211\\grasssolution\\estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|solutionrelative:estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\documents\\prn211\\grasssolution\\dataaccess\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|d:\\code\\prn211\\grasssolution\\dataaccess\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\dataaccess\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC10A2E5-A7A0-46EC-930D-10663462BD21}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|d:\\code\\prn211\\grasssolution\\businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\businessobject\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|d:\\code\\prn211\\grasssolution\\businessobject\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36932FCA-5AC8-49D5-B3ED-8E4D56830197}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|c:\\users\\admin\\documents\\prn211\\grasssolution\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D0B141F-5DA0-4098-910F-BD775F8043C2}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +38,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MemberRepository.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\GrAssSolution\\DataAccess\\MemberRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\MemberRepository.cs",
-              "ToolTip": "D:\\code\\PRN211\\GrAssSolution\\DataAccess\\MemberRepository.cs",
-              "RelativeToolTip": "DataAccess\\MemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:46:14.4Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IMemberRepository.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\GrAssSolution\\DataAccess\\IMemberRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\IMemberRepository.cs",
-              "ToolTip": "D:\\code\\PRN211\\GrAssSolution\\DataAccess\\IMemberRepository.cs",
-              "RelativeToolTip": "DataAccess\\IMemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "MemberResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Model\\Reponse\\MemberResponse.cs",
+              "RelativeDocumentMoniker": "eStore\\Model\\Reponse\\MemberResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Model\\Reponse\\MemberResponse.cs",
+              "RelativeToolTip": "eStore\\Model\\Reponse\\MemberResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:19:02.596Z",
+              "WhenOpened": "2024-11-14T17:11:11.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\code\\PRN211\\GrAssSolution\\BusinessObject\\appsettings.json",
-              "RelativeDocumentMoniker": "BusinessObject\\appsettings.json",
-              "ToolTip": "D:\\code\\PRN211\\GrAssSolution\\BusinessObject\\appsettings.json",
-              "RelativeToolTip": "BusinessObject\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACRAAAA",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\appsettings.json",
+              "RelativeDocumentMoniker": "eStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\appsettings.json",
+              "RelativeToolTip": "eStore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T16:33:33.669Z"
+              "WhenOpened": "2024-11-14T16:57:25.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "eStore\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "eStore\\Controllers\\MemberController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:24:33.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Program.cs",
+              "RelativeDocumentMoniker": "eStore\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\eStore\\Program.cs",
+              "RelativeToolTip": "eStore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:23:42.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EStoreContext.cs",
-              "DocumentMoniker": "D:\\code\\PRN211\\GrAssSolution\\BusinessObject\\EStoreContext.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\EStoreContext.cs",
-              "ToolTip": "D:\\code\\PRN211\\GrAssSolution\\BusinessObject\\EStoreContext.cs",
-              "RelativeToolTip": "BusinessObject\\EStoreContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACQAAAAXAAAA",
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\DataAccess\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\DataAccess\\MemberRepository.cs",
+              "RelativeToolTip": "DataAccess\\MemberRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:32:33.178Z"
+              "WhenOpened": "2024-11-14T08:46:14.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\DataAccess\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\DataAccess\\IMemberRepository.cs",
+              "RelativeToolTip": "DataAccess\\IMemberRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:19:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\BusinessObject\\EStoreContext.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\EStoreContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\PRN211\\GrAssSolution\\BusinessObject\\EStoreContext.cs",
+              "RelativeToolTip": "BusinessObject\\EStoreContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:32:33.178Z",
+              "EditorCaption": ""
             }
           ]
         }

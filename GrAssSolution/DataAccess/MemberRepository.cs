@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,39 +10,59 @@ namespace DataAccess
 {
     public class MemberRepository : IMemberRepository, IDisposable
     {
+        private EStoreContext context;
+        private bool disposed = false;
+
+        public MemberRepository(EStoreContext context)
+        {
+            this.context = context;
+        }
+
         public void AddMember(Member member)
         {
-            throw new NotImplementedException();
+            context.Members.Add(member);
+        }
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this.disposed)
+            {
+                if (disposing)
+                {
+                    context.Dispose();
+                }
+            }
+            this.disposed = true;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
-        public Member GetMember(int id)
+        public Member? GetMember(int id)
         {
-            throw new NotImplementedException();
+            return context.Members.Find(id);
         }
 
         public IEnumerable<Member> GetMembers()
         {
-            throw new NotImplementedException();
+            return context.Members.ToList();
         }
 
         public void RemoveMember(Member member)
         {
-            throw new NotImplementedException();
+            context.Members.Remove(member);
         }
 
         public void Save()
         {
-            throw new NotImplementedException();
+            context.SaveChanges();
         }
 
         public void UpdateMember(Member member)
         {
-            throw new NotImplementedException();
+            context.Members.Update(member);
         }
     }
 }
